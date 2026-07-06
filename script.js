@@ -55,8 +55,10 @@ async function loadStatus() {
     document.getElementById("supportText").innerText = `${Number(data.supportCount || 0)} Community-Beiträge`;
 
     if (data.lastSupporter && Number(data.lastAmount || 0) > 0) {
-      document.getElementById("lastSupport").innerText =
-        `Letzte Unterstützung: ${data.lastSupporter} (+${formatEuro(data.lastAmount)})`;
+      document.getElementById("lastSupport").innerHTML =
+          `Letzte Unterstützung:
+          <span class="supporter-name">${data.lastSupporter}</span>
+          (+${formatEuro(data.lastAmount)})`;
     } else {
       document.getElementById("lastSupport").innerText = "Letzte Unterstützung: —";
     }
