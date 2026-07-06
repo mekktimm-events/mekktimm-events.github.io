@@ -119,4 +119,94 @@ footer{text-align:center;padding:32px 20px;color:var(--muted);border-top:1px sol
     font-weight:900;
     text-shadow:0 0 10px rgba(255,176,0,.45);
 }
+.event-date{
+    margin-top:42px;
+    text-align:center;
+}
+
+.event-day{
+
+    font-size:34px;
+
+    font-weight:900;
+
+    color:#ffb000;
+
+    text-transform:uppercase;
+
+    letter-spacing:.05em;
+
+    text-shadow:0 0 18px rgba(255,176,0,.35);
+
+}
+
+.event-location{
+
+    margin-top:14px;
+
+    font-size:14px;
+
+    font-weight:900;
+
+    letter-spacing:.20em;
+
+    text-transform:uppercase;
+
+    color:rgba(255,255,255,.60);
+
+}
+
+.streamer-links{
+
+    margin-top:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.streamer-links a{
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    font-size:22px;
+
+    font-weight:900;
+
+    transition:.3s;
+
+}
+
+.streamer-links a:hover{
+
+    color:#ffb000;
+
+    transform:translateY(-2px);
+
+}
+
+.twitch-icon{
+
+    margin-right:8px;
+
+    font-size:20px;
+
+}
+
+.divider{
+
+    color:rgba(255,255,255,.35);
+
+    font-size:22px;
+
+}
 @media (max-width:850px){.nav nav{display:none}.cards,.support-grid{grid-template-columns:1fr}.counter-top,.counter-meta{flex-direction:column;align-items:center;text-align:center}.counter-meta{font-size:14px}.section{padding:70px 18px}}
