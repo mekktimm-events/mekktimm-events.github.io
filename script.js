@@ -1,5 +1,5 @@
 const STATUS_URL = "https://drimont.com/bbq/status.json";
-const EVENT_DATE = new Date("2026-08-21T20:00:00+02:00");
+const EVENT_DATE = new Date("2026-08-21T11:00:00+02:00");
 
 let displayedTotal = 0;
 let displayedPercent = 0;
