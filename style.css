@@ -857,6 +857,48 @@ footer{
 
 }
 
+.footer-links{
+
+    margin-top:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+    flex-wrap:wrap;
+
+}
+
+.footer-links a{
+
+    color:rgba(255,255,255,.58);
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:#ffb000;
+
+}
+
+.footer-links span{
+
+    color:rgba(255,255,255,.30);
+
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(55px);
