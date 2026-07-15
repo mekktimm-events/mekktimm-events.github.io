@@ -1057,32 +1057,34 @@ footer{
   color: rgba(255,255,255,.45);
 }
 
-  /* ---------------- GÄSTE ---------------- */
+/* ---------------- GÄSTE ---------------- */
 
 .guest-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
-    margin-top:45px;
-    justify-items:center;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:40px;
+    margin-top:50px;
 }
 
 .guest-card{
-    width:100%;
-    max-width:420px;
     transition:.35s ease;
+}
+
+.guest-card .phone-frame{
+    width:360px;          /* identisch zum Trailer */
 }
 
 .guest-card img{
     display:block;
     width:100%;
-    height:auto;
-    border-radius:20px;
-    box-shadow:0 20px 45px rgba(0,0,0,.45);
+    aspect-ratio:9/16;    /* gleiche Größe wie das Video */
+    object-fit:cover;
+    border-radius:28px;
 }
 
 .guest-card:hover{
-    transform:translateY(-8px) scale(1.02);
+    transform:translateY(-6px);
 }
 
 @media (max-width: 650px) {
