@@ -1072,6 +1072,10 @@ footer{
     transition:.35s ease;
 }
 
+.guest-card .phone-frame{
+    width:360px;          /* identisch zum Trailer */
+}
+
 .guest-card img{
     display:block;
     width:100%;
