@@ -1057,6 +1057,34 @@ footer{
   color: rgba(255,255,255,.45);
 }
 
+  /* ---------------- GÄSTE ---------------- */
+
+.guest-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:45px;
+    justify-items:center;
+}
+
+.guest-card{
+    width:100%;
+    max-width:420px;
+    transition:.35s ease;
+}
+
+.guest-card img{
+    display:block;
+    width:100%;
+    height:auto;
+    border-radius:20px;
+    box-shadow:0 20px 45px rgba(0,0,0,.45);
+}
+
+.guest-card:hover{
+    transform:translateY(-8px) scale(1.02);
+}
+
 @media (max-width: 650px) {
   .legal-main {
     padding: 40px 14px;
